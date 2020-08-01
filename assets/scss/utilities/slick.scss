@@ -1,0 +1,47 @@
+.slider {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.slick-slide {
+    margin-left: 36px;
+    margin-bottom: 1rem !important;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+}
+
+.slick-dots li.slick-active button:before {
+    /* opacity: .75; */
+    color: $base-color !important;
+}
+
+.slick-dots li button:before {
+    color: $base-color !important;
+}
+
+.slick-slide {
+    &:focus {
+        outline: none !important;
+    }
+    &:focus-within {
+        outline: none !important;
+    }
+    &:active {
+        outline: none !important;
+    }
+    &:visited {
+        outline: none !important;
+    }
+    margin-bottom: 4rem;
+}

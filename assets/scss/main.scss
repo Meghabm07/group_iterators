@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+}
+
+.text__base__color {
+    color: $base-color !important;
+}
+
+.text__white__color {
+    color: #ffffff !important;
+}
+
+.text__black__color {
+    color: #000000 !important;
+}
+
+.text__grey__color {
+    color: #969696 !important;
+}
+
+.btn-nav {
+    color: #fff;
+    background-color: $base-color;
+    border-color: $base-color;
+}

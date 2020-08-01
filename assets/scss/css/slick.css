@@ -1,0 +1,28 @@
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.slick-dots li.slick-active button:before {
+  /* opacity: .75; */
+  color: #e01c2a !important;
+}
+/*# sourceMappingURL=slick.css.map */
