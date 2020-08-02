@@ -7,6 +7,14 @@ body {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    width: 100%;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .text__base__color {
     color: $base-color !important;
 }
@@ -27,4 +35,11 @@ body {
     color: #fff;
     background-color: $base-color;
     border-color: $base-color;
+}
+
+@media (max-width:583px) {
+    .container-fluid {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }

@@ -8,7 +8,7 @@ footer {
     }
     p {
         color: white;
-        text-align: justify;
+        text-align: left;
     }
 }
 
@@ -40,5 +40,11 @@ footer {
 @media (max-width:990px) {
     .footer__post__img {
         width: 70px;
+    }
+}
+
+@media (max-width:766px) {
+    .footer__post__img {
+        width: 100% !important;
     }
 }

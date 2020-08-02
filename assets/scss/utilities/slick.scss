@@ -45,3 +45,15 @@
     }
     margin-bottom: 4rem;
 }
+
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+
+@media (max-width:480px) {
+    .slick-slide {
+        padding-left: 1rem;
+        margin-left: 0px !important;
+    }
+}

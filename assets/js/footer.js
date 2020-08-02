@@ -1,6 +1,36 @@
 function footer() {
+    var latestPosts = '';
+
+    for (let index = 0; index < 2; index++) {
+        latestPosts += `
+                        <a href="./article.html">
+                            <div class="row mt-3">
+                                <div div class = "col-lg-4 col-md-4 col-sm-12 pr-0" >
+                                    <img src="./assets/images/stadium.jpg" class="card-img-top footer__post__img" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12">
+                                    <p class = "mb-0" > Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum sit adipisicing elit ipsum dolor.. </p>
+                                </div>
+                            </div>
+                        </a>
+                            `;
+    }
+
+    var gallery = '';
+
+    gallery += `<div class="row">`;
+
+    for (let i = 0; i < 6; i++) {
+        gallery += ` <div class="col-4 pr-0">
+                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
+                        </div>`;
+
+    }
+
+    gallery += `</div>`;
+
     var footer = `
-        <div class="container pb-4">
+        <div class="container-fluid pb-4" >
             <div class="row pt-5">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <h5 class="font-weight-bold mb-4">
@@ -45,67 +75,14 @@ function footer() {
                     <h5 class="font-weight-bold mb-4"> <i class="text__base__color fa fa-newspaper-o" aria-hidden="true"></i> &nbsp; Latest Posts
                     </h5>
                     <div class="heading__divider"></div>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top footer__post__img" alt="">
-                        </div>
-                        <div class="col-8">
-                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-4">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top footer__post__img" alt="">
-                        </div>
-                        <div class="col-8">
-                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>
-                        </div>
-                    </div>
-                    <div class="row mt-3 mb-2">
-                        <div class="col-4">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top footer__post__img" alt="">
-                        </div>
-                        <div class="col-8">
-                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>
-                        </div>
-                    </div>
-
+                    <div id="latestPosts"></div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
 
                     <h5 class="font-weight-bold mb-4"><i class="text__base__color fa fa-picture-o" aria-hidden="true"></i> &nbsp; Gallery</h5>
                     <div class="heading__divider"></div>
 
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4 mt-3">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4 mt-3">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4 mt-3">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4 mt-3">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4 mt-3">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                        <div class="col-4 mt-3">
-                            <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
-                        </div>
-                    </div>
-
+                    <div id="gallery"></div>
                 </div>
             </div>
         </div>
@@ -117,4 +94,8 @@ function footer() {
         </div>
     `;
     $("footer").append(footer);
+
+    $('#latestPosts').append(latestPosts);
+
+    $('#gallery').append(gallery);
 }

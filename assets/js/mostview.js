@@ -1,0 +1,34 @@
+function mostView() {
+    var mostView = `
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h4 class="mb-4">Most View</h4>
+                    </div>
+                `;
+
+    for (let index = 0; index < 6; index++) {
+        mostView += `
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                            <a href="./article.html" class="most__view__article">
+                                <div class="card text-left ">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4 pr-0">
+                                                <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
+                                            </div>
+                                            <div class="col-lg-8 pr-1">
+                                                <h6 class="text-info font-weight-bold">New Article / <span class="text__black__color">Monday 26,2020</span></h6>
+                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime... </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    `;
+    }
+
+    mostView += `</div>`;
+
+    $("#mostView").append(mostView);
+}

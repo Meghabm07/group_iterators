@@ -1,0 +1,12 @@
+@media (max-width: 992px) {
+  .single__article__content img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .single__article__content img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=singlearticle.css.map */
