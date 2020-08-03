@@ -3,7 +3,7 @@ function singleArticle() {
 
     singleArticle += `
                         <div class="row">
-                            <div class="col-lg-7 col-md-8 col-sm-12 single__article__content">
+                            <div class="col-lg-8 col-md-12 col-sm-12 single__article__content">
                                 <div class="d-flex flex-row-reverse bd-highlight">
                                     <div class="p-2 bd-highlight">Posted on : Monday 05 2020</div>
                                 </div>
@@ -36,7 +36,7 @@ function singleArticle() {
                                 <iframe style = "width: 100%;height: 420px;" src="https://www.youtube.com/embed/8kOhXLKCyCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             
-                            <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
 
                                 <div id="relatedArticle"></div>
 
@@ -60,7 +60,7 @@ function getRelatedArticle() {
 
     for (let i = 0; i < 9; i++) {
         relatedArticle += `
-                             <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                             <div class="col-lg-12 col-md-6 col-sm-12 mb-3">
                                 <a href="./article.html" class="related__article">
                                     <div class="card text-left ">
                                         <div class="card-body">
@@ -70,7 +70,7 @@ function getRelatedArticle() {
                                                 </div>
                                                 <div class="col-lg-8 pr-1">
                                                     <h6 class="text-info font-weight-bold">New Article / <span class="text__black__color">Monday 26,2020</span></h6>
-                                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime... </p>
+                                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit... </p>
                                                 </div>
                                             </div>
                                         </div>

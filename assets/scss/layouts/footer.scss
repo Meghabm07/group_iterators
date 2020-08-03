@@ -1,14 +1,23 @@
 footer {
     background-color: $footer;
+    p {
+        color: white;
+        text-align: left;
+    }
     h5 {
         color: white;
     }
     h6 {
         color: white;
     }
-    p {
-        color: white;
-        text-align: left;
+    a {
+        p {
+            color: white;
+            text-align: left;
+        }
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 

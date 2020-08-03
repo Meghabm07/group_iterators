@@ -13,7 +13,7 @@ function mostView() {
                                 <div class="card text-left ">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-lg-4 pr-0">
+                                            <div div class = "col-lg-4 pr-0 most__view__article__img"                                             >
                                                 <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
                                             </div>
                                             <div class="col-lg-8 pr-1">

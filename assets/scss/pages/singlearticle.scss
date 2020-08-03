@@ -1,3 +1,24 @@
+.related__article {
+    color: #000;
+    &:hover {
+        color: #000;
+        text-decoration: none;
+    }
+    .card {
+        -webkit-box-shadow: 0 0 0 #00000040;
+        box-shadow: 0 0 0 #00000040;
+        -webkit-transition: 500ms ease all;
+        -moz-transition: 500ms ease all;
+        transition: 500ms ease all;
+        &:hover {
+            -webkit-box-shadow: 0 5px 20px #00000040;
+            box-shadow: 0 5px 20px #00000040;
+            transform: scale(1.01);
+            text-decoration: none;
+        }
+    }
+}
+
 @media (max-width: 992px) {
     .single__article__content {
         img {
