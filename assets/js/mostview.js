@@ -2,7 +2,7 @@ function mostView() {
     var mostView = `
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <h4 class="mb-4">Most View</h4>
+                        <h4 class="mb-4 text__white__color">Most View</h4>
                     </div>
                 `;
 
@@ -16,8 +16,8 @@ function mostView() {
                                             <div div class = "col-lg-4 pr-0 most__view__article__img"                                             >
                                                 <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
                                             </div>
-                                            <div class="col-lg-8 pr-1">
-                                                <h6 class="text-info font-weight-bold">New Article / <span class="text__black__color">Monday 26,2020</span></h6>
+                                            <div class="col-lg-8 pr-1 pt-2">
+                                                <h6 class="text__base__color font-weight-bold">New Article / <span class="text__white__color">Monday 26,2020</span></h6>
                                                 <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime... </p>
                                             </div>
                                         </div>

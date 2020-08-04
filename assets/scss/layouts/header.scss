@@ -2,10 +2,12 @@ header {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
 }
 
-.top__navbar {
-    background-color: $base-bg-color;
-    color: white !important;
-    padding: 0rem 0.1rem;
+.nav__container {
+    background-color: $base-bg-color !important;
+}
+
+.navbar {
+    padding: 0rem 1rem;
 }
 
 .navbar-toggler {
@@ -18,8 +20,10 @@ header {
 }
 
 .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
     img {
-        height: 40px;
+        height: 90px;
         width: auto;
     }
 }
@@ -32,98 +36,33 @@ header {
     }
 }
 
-.bottom__navbar {
+.top__navbar {
     border-top: 1px solid rgba(0, 0, 0, .1);
-    background-color: white;
+    background-color: $base-bg-color;
     color: white !important;
 }
 
 .nav-link {
-    color: black;
+    color: white;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
     &:hover {
         background-color: $base-color;
         color: white;
     }
 }
 
-.advertise__banner__div {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: end;
-    .advertise__banner {
-        img {
-            height: 70px;
-            width: auto;
-        }
+.nav-item {
+    .active {
+        background-color: $base-color;
+        color: white;
     }
 }
 
-.bottom__navbar__nav {
+.top__navbar__nav {
     li {
         a {
             color: white;
         }
-    }
-}
-
-.trending {
-    margin-right: 10px;
-    background: $base-color;
-    font-size: 14px;
-    font-weight: 500;
-    color: #fff;
-}
-
-.trending__content {
-    font-size: 14px;
-    font-weight: 500;
-    color: #000;
-}
-
-.today {
-    font-size: 14px;
-    font-weight: 500;
-    color: #000;
-    // border-right: 1px solid black;
-}
-
-.top__navbar__icon {
-    font-size: 14px;
-    font-weight: 500;
-    color: #000;
-    &:hover {
-        background-color: $base-color;
-        .fa {
-            color: white;
-        }
-    }
-    a {
-        transition: color 300ms ease;
-        .fa {
-            color: #000;
-        }
-    }
-}
-
-@media (max-width:769px) {
-    .advertise__banner__div {
-        display: flex !important;
-        justify-content: center !important;
-        padding-left: 0px;
-        padding-top: 0.5rem;
-        padding-right: 0rem;
-        padding-bottom: 0.5rem;
-        .advertise__banner {
-            img {
-                height: 42px;
-                width: auto;
-            }
-        }
-    }
-}
-
-@media (max-width:360px) {
-    .advertise__banner__div {
-        display: none !important;
     }
 }

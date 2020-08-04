@@ -5,7 +5,9 @@ function singleArticle() {
                         <div class="row">
                             <div class="col-lg-8 col-md-12 col-sm-12 single__article__content">
                                 <div class="d-flex flex-row-reverse bd-highlight">
-                                    <div class="p-2 bd-highlight">Posted on : Monday 05 2020</div>
+                                    <div class="p-2 bd-highlight">
+                                        <p>Posted on : Monday 05 2020</p>
+                                    </div>
                                 </div>
                                 <h3 class="single__article__title">
                                     Japan’s virus success has puzzled the world. Is its luck running out?
@@ -54,7 +56,7 @@ function getRelatedArticle() {
     var relatedArticle = `
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <h4 class="mb-4">Related Articles</h4>
+                                    <h4 class="text__white__color mb-4">Related Articles</h4>
                                 </div>
                             `;
 
@@ -69,7 +71,7 @@ function getRelatedArticle() {
                                                     <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
                                                 </div>
                                                 <div class="col-lg-8 pr-1">
-                                                    <h6 class="text-info font-weight-bold">New Article / <span class="text__black__color">Monday 26,2020</span></h6>
+                                                    <h6 class="text__base__color font-weight-bold">New Article / <span class="text__white__color">Monday 26,2020</span></h6>
                                                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit... </p>
                                                 </div>
                                             </div>

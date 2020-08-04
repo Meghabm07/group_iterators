@@ -1,5 +1,7 @@
 footer {
-    background-color: $footer;
+    .container-fluid {
+        background-color: $footer;
+    }
     p {
         color: white;
         text-align: left;
