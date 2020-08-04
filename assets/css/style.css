@@ -339,8 +339,8 @@ h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(260px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-auto-rows: 150px;
   grid-auto-flow: row dense;
 }
@@ -565,6 +565,10 @@ body {
   color: #fff;
   background-color: #E01C2A;
   border-color: #E01C2A;
+}
+
+.home {
+  background-size: cover !important;
 }
 
 @media (max-width: 583px) {
