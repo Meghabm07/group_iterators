@@ -126,6 +126,12 @@ header {
   color: white;
 }
 
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0rem 0rem !important;
+  }
+}
+
 footer .container-fluid {
   background-color: #181818 !important;
 }
