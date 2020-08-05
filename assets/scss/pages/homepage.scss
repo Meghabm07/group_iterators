@@ -30,7 +30,9 @@
         .card-body {
             padding: 1rem !important;
             .most__view__article__img {
-                padding-right: 15px !important;
+                display: flex;
+                -ms-flex-align: center;
+                align-items: center;
             }
         }
         &:hover {
@@ -80,7 +82,7 @@ h1 {
     grid-column-start: auto;
     grid-row-start: auto;
     color: #fff;
-    background-size: 100% 100% !important;
+    background-size: cover !important;
     background-position: center !important;
     box-shadow: 0px 0px 10px 0px rgba(rgb(255, 255, 255), 0.4);
     transition: transform 0.3s ease-in-out;
@@ -132,12 +134,33 @@ h1 {
     }
 }
 
+@media (max-width:1448px) {
+    .item {
+        &--full {
+            grid-column: 1/-2;
+            -ms-grid-row-span: 3;
+            grid-row-end: span 3;
+        }
+        &--large {
+            grid-column: 3/-4;
+            -ms-grid-row-span: 2;
+            grid-row-end: span 2;
+        }
+    }
+}
+
 @media (max-width:1116px) {
     .item {
         &--large {
             grid-column: 3/-2;
             grid-row-end: span 2;
         }
+    }
+}
+
+@media (max-width:763px) {
+    .most__view__article__img {
+        padding-right: 15px !important;
     }
 }
 

@@ -71,6 +71,15 @@ header {
 
 .nav__container {
   background-color: #111111 !important;
+  border-bottom: 2px solid #E01C2A;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11111;
 }
 
 .navbar {
@@ -114,11 +123,13 @@ header {
 
 .nav-link:hover {
   background-color: #E01C2A;
+  border-radius: 20px;
   color: white;
 }
 
 .nav-item .active {
   background-color: #E01C2A;
+  border-radius: 20px;
   color: white;
 }
 
@@ -129,6 +140,12 @@ header {
 @media (max-width: 991px) {
   .navbar {
     padding: 0rem 0rem !important;
+  }
+  .navbar-nav li {
+    padding-top: 10px;
+  }
+  .navbar-collapse {
+    padding-bottom: 22px;
   }
 }
 
@@ -228,7 +245,12 @@ footer a:hover {
 }
 
 .most__view__article .card .card-body .most__view__article__img {
-  padding-right: 15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .most__view__article .card:hover {
@@ -290,7 +312,7 @@ h1 {
   -ms-grid-row: auto;
       grid-row-start: auto;
   color: #fff;
-  background-size: 100% 100% !important;
+  background-size: cover !important;
   background-position: center !important;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.4);
           box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.4);
@@ -361,11 +383,30 @@ h1 {
   color: #444;
 }
 
+@media (max-width: 1448px) {
+  .item--full {
+    grid-column: 1/-2;
+    -ms-grid-row-span: 3;
+    grid-row-end: span 3;
+  }
+  .item--large {
+    grid-column: 3/-4;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+  }
+}
+
 @media (max-width: 1116px) {
   .item--large {
     grid-column: 3/-2;
     -ms-grid-row-span: 2;
         grid-row-end: span 2;
+  }
+}
+
+@media (max-width: 763px) {
+  .most__view__article__img {
+    padding-right: 15px !important;
   }
 }
 
@@ -524,6 +565,17 @@ p {
   border-color: #E01C2A;
 }
 
+.btn-outline-danger {
+  color: #E01C2A;
+  border-color: #E01C2A;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #E01C2A;
+  border-color: #E01C2A;
+}
+
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -556,6 +608,15 @@ p {
 .card:hover {
   -webkit-box-shadow: 0px 0px 20px #b2b2b240 !important;
           box-shadow: 0px 0px 20px #b2b2b240 !important;
+}
+
+@media (max-width: 1504px) {
+  body {
+    font-size: 85%;
+  }
+  body h6 {
+    font-size: 110% !important;
+  }
 }
 
 @media (max-width: 583px) {

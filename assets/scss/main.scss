@@ -59,6 +59,16 @@ p {
     border-color: $base-color;
 }
 
+.btn-outline-danger {
+    color: $base-color;
+    border-color: $base-color;
+    &:hover {
+        color: #fff;
+        background-color: $base-color;
+        border-color: $base-color;
+    }
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -82,6 +92,15 @@ p {
     }
     &:hover {
         box-shadow: 0px 0px 20px #b2b2b240 !important;
+    }
+}
+
+@media (max-width:1504px) {
+    body {
+        font-size: 85%;
+        h6 {
+            font-size: 110% !important;
+        }
     }
 }
 

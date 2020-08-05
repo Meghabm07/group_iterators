@@ -4,6 +4,15 @@ header {
 
 .nav__container {
     background-color: $base-bg-color !important;
+    border-bottom: 2px solid $base-color;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11111;
 }
 
 .navbar {
@@ -48,6 +57,7 @@ header {
     padding-left: 1.5rem !important;
     &:hover {
         background-color: $base-color;
+        border-radius: 20px;
         color: white;
     }
 }
@@ -55,6 +65,7 @@ header {
 .nav-item {
     .active {
         background-color: $base-color;
+        border-radius: 20px;
         color: white;
     }
 }
@@ -70,5 +81,13 @@ header {
 @media (max-width:991px) {
     .navbar {
         padding: 0rem 0rem !important;
+    }
+    .navbar-nav {
+        li {
+            padding-top: 10px;
+        }
+    }
+    .navbar-collapse {
+        padding-bottom: 22px;
     }
 }
