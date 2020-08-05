@@ -48,11 +48,11 @@ function header() {
 
                         <div class="collapse navbar-collapse" id="topNavBar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
+                                <li class="nav-item pr-2">
                                     <a class = "nav-link ${homeNavActive}"
                                     href = "index.html" > Home </a>
                                 </li>
-                                 <li class="nav-item">
+                                 <li class="nav-item pr-2">
                                     <a class="nav-link ${allArticleNavActive}" href="all-articles.html">Articles </a>
                                 </li>
                                 ${homePageMostViewed}

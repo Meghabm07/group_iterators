@@ -95,11 +95,20 @@ p {
     }
 }
 
-@media (max-width:1504px) {
+body {
+    font-size: 90%;
+    p {
+        font-size: 100% !important;
+    }
+}
+
+@media (max-width:1440px) {
     body {
-        font-size: 85%;
         h6 {
-            font-size: 110% !important;
+            font-size: 90%;
+        }
+        p {
+            font-size: 85% !important;
         }
     }
 }

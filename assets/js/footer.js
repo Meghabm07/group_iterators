@@ -21,7 +21,7 @@ function footer() {
     gallery += `<div class="row">`;
 
     for (let i = 0; i < 6; i++) {
-        gallery += ` <div class="col-4 pr-0">
+        gallery += ` <div class="col-4 pr-0 pb-3">
                             <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
                         </div>`;
 
