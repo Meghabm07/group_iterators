@@ -14,3 +14,21 @@
     border: 1px solid #bfbfbf;
     border-radius: .25rem;
 }
+
+.all__articles {
+    color: #000;
+    &:hover {
+        color: #000;
+        text-decoration: none;
+    }
+    .card {
+        -webkit-box-shadow: 0 0 0 #00000040;
+        box-shadow: 0 0 0 #00000040;
+        &:hover {
+            -webkit-box-shadow: 0 5px 20px #00000040;
+            box-shadow: 0 5px 20px #00000040;
+            transform: scale(1.01);
+            text-decoration: none;
+        }
+    }
+}

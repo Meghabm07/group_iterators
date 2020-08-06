@@ -24,7 +24,7 @@ function allArticles() {
     for (let i = 0; i < 12; i++) {
         allArticles += `
                              <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                                <a href="./article.html" class="related__article">
+                                <a href="./article.html" class="all__articles">
                                     <div class="card text-left ">
                                         <div class="card-body">
                                             <div class="row">
