@@ -1,34 +1,51 @@
-.search__article__icon {
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: .375rem .75rem;
-    margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ffffff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #555555;
-    border: 1px solid #bfbfbf;
-    border-radius: .25rem;
-}
-
-.all__articles {
-    color: #000;
-    &:hover {
-        color: #000;
-        text-decoration: none;
+    .search__article__icon {
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: .375rem .75rem;
+        margin-bottom: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #ffffff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #555555;
+        border: 1px solid #bfbfbf;
+        border-radius: .25rem;
     }
-    .card {
-        -webkit-box-shadow: 0 0 0 #00000040;
-        box-shadow: 0 0 0 #00000040;
+    
+    .all__articles {
+        color: #000;
         &:hover {
-            -webkit-box-shadow: 0 5px 20px #00000040;
-            box-shadow: 0 5px 20px #00000040;
-            transform: scale(1.01);
+            color: #000;
             text-decoration: none;
         }
+        .card {
+            -webkit-box-shadow: 0 0 0 #00000040;
+            box-shadow: 0 0 0 #00000040;
+            &:hover {
+                -webkit-box-shadow: 0 5px 20px #00000040;
+                box-shadow: 0 5px 20px #00000040;
+                transform: scale(1.01);
+                text-decoration: none;
+            }
+        }
     }
-}
+    
+    @media (max-width:1500px) and (min-width:767px) {
+        .all__articles {
+            h6 {
+                font-size: 82%;
+                margin-bottom: 0px;
+            }
+            p {
+                font-size: 75% !important;
+            }
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + .75rem + -6px);
+        }
+    }

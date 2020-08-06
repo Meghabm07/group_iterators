@@ -78,6 +78,16 @@ header {
     }
 }
 
+@media (max-width:1500px) and (min-width:767px) {
+    .navbar-brand img {
+        height: 80px;
+        width: auto;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
 @media (max-width:991px) {
     .navbar {
         padding: 0rem 0rem !important;

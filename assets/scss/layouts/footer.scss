@@ -49,6 +49,19 @@ footer {
     }
 }
 
+@media (max-width: 1500px) and (min-width:767px) {
+    footer {
+        h6 {
+            font-size: 77%;
+        }
+        p {
+            color: white;
+            text-align: left;
+            font-size: 77%;
+        }
+    }
+}
+
 @media (max-width:990px) {
     .footer__post__img {
         width: 70px;

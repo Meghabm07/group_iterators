@@ -38,34 +38,34 @@ function footer() {
                     <div class="heading__divider"></div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni harum voluptates!</p>
                     <div class="d-flex flex-column">
-                        <div class="p-2">
+                        <div class="">
                             <h6>
                                 <i class="fa fa-location-arrow text__base__color" aria-hidden="true"></i> &nbsp; #1234, 2nd Floor Lorem Ipsum US 123456
                             </h6>
                         </div>
-                        <div class="p-2">
+                        <div class="">
                             <h6>
                                 <i class="fa fa-phone-square text__base__color" aria-hidden="true"></i> &nbsp; +(91) 9876543210
                             </h6>
                         </div>
                     </div>
                     <div class="d-flex flex-row bd-highlight mb-3 footer__social__icons">
-                        <div class="p-2 bd-highlight">
+                        <div class="pr-2 pt-2 bd-highlight">
                             <i class="text__base__color fa fa-facebook-official" aria-hidden="true"></i>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="pr-2 pt-2 bd-highlight">
                             <i class="text__base__color fa fa-linkedin-square" aria-hidden="true"></i>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="pr-2 pt-2 bd-highlight">
                             <i class="text__base__color fa fa-youtube-square" aria-hidden="true"></i>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="pr-2 pt-2 bd-highlight">
                             <i class="text__base__color fa fa-twitter-square" aria-hidden="true"></i>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="pr-2 pt-2 bd-highlight">
                             <i class="text__base__color fa fa-instagram" aria-hidden="true"></i>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="pr-2 pt-2 bd-highlight">
                             <i class="text__base__color fa fa-quora" aria-hidden="true"></i>
                         </div>
                     </div>

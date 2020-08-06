@@ -85,6 +85,9 @@ p {
     border-radius: .25rem;
     .card-body {
         background-color: $base-bg-color;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
         p {
             color: #bfbfbf;
         }
@@ -97,22 +100,12 @@ p {
     }
 }
 
-body {
-    // font-size: 90%;
-    p {
-        font-size: 100% !important;
-    }
-}
-
-@media (max-width:1500px) {
-    body {
-        font-size: 90% !important;
-        h6 {
-            font-size: 95%;
-        }
-        p {
-            font-size: 95% !important;
-        }
+@media (max-width: 1500px) and (min-width:767px) {
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0.7rem;
     }
 }
 

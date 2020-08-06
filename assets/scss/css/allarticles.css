@@ -39,3 +39,18 @@
           transform: scale(1.01);
   text-decoration: none;
 }
+
+@media (max-width: 1500px) and (min-width: 767px) {
+  .all__articles h6 {
+    font-size: 82%;
+    margin-bottom: 0px;
+  }
+  .all__articles p {
+    font-size: 75% !important;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + -6px);
+  }
+}
