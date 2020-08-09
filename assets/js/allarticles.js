@@ -4,7 +4,7 @@ function allArticles() {
                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                     <div class="d-flex bd-highlight mb-3">
                                         <div class="mr-auto p-2 bd-highlight">
-                                            <h4 class="text__white__color mb-4">All Articles</h4>
+                                            <h4 class="text__black__color mb-4">All Articles</h4>
                                         </div>
                                         <div class="p-2 bd-highlight">
                                             <div class="input-group">
@@ -32,7 +32,7 @@ function allArticles() {
                                                     <img src="./assets/images/stadium.jpg" class="card-img-top" alt="">
                                                 </div>
                                                 <div class="col-lg-8 pr-1">
-                                                    <h6 class="text__base__color font-weight-bold">New Article / <span class="text__white__color">Monday 26,2020</span></h6>
+                                                    <h6 class="text__base__color font-weight-bold">New Article / <span class="text__black__color">Monday 26,2020</span></h6>
                                                     <p class="mb-0">
 Lorem ipsum dolor sit amet consectetur adipisicing elit.Veniam recusandae nihil voluptatibus dolor error laudantium saepe velit voluptate labore, alias similique perspiciatis debitis possimus!..
                                                     </p>

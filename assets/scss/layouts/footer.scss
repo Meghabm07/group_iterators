@@ -1,20 +1,21 @@
 footer {
-    .container-fluid {
+    background-color: white;
+    .container {
         background-color: $footer;
     }
     p {
-        color: white;
+        color: black;
         text-align: left;
     }
     h5 {
-        color: white;
+        color: black;
     }
     h6 {
-        color: white;
+        color: black;
     }
     a {
         p {
-            color: white;
+            color: black;
             text-align: left;
         }
         &:hover {
@@ -43,7 +44,7 @@ footer {
         i {
             font-size: 22px;
             &:hover {
-                color: white !important;
+                color: black !important;
             }
         }
     }
@@ -55,7 +56,7 @@ footer {
             font-size: 77%;
         }
         p {
-            color: white;
+            color: black;
             text-align: left;
             font-size: 77%;
         }

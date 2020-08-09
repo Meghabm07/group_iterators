@@ -9,7 +9,7 @@ function footer() {
                                     <img src="./assets/images/stadium.jpg" class="card-img-top footer__post__img" alt="">
                                 </div>
                                 <div class="col-lg-8 col-md-8 col-sm-12">
-                                    <p class = "mb-0" > Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum sit adipisicing elit ipsum dolor.. </p>
+                                    <p class = "mb-0" > Lorem, ipsum dolor sit amet consectetur adipisicing.. </p>
                                 </div>
                             </div>
                         </a>
@@ -30,7 +30,7 @@ function footer() {
     gallery += `</div>`;
 
     var footer = `
-        <div class="container-fluid pb-4" >
+        <div class="container pb-4" >
             <div class="row pt-5">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <h5 class="font-weight-bold mb-4">
@@ -88,7 +88,7 @@ function footer() {
         </div>
         <div class="footer__bottom">
             <div class="d-flex justify-content-center align-items-center">
-                <p class=" mb-0"><i class="fa fa-copyright" aria-hidden="true"></i> Copyrighted by <b class="text__white__color">The Cricket
+                <p class=" mb-0"><i class="fa fa-copyright" aria-hidden="true"></i> Copyrighted by <b class="text__black__color">The Cricket
                         Digest</b></p>
             </div>
         </div>
