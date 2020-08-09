@@ -5,6 +5,7 @@
 <head></head>
 
 <body>
+    <div id="preloader"></div>
 
     <header>
 
@@ -158,11 +159,13 @@
 
     <script src="./assets/js/popular.js"></script>
 
-    <script type="text/javascript">
-        $("body").prepend('<div id="preloader"></div>');
+    <script>
         $(document).ready(function() {
             $("#preloader").remove();
-
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
             $(window).scroll(function() {
                 var header = $('header'),
                     scroll = $(window).scrollTop();

@@ -6,14 +6,16 @@ function singleArticle() {
                 <div class="col-lg-8 col-md-12 col-sm-12 single__article__content">
                     <div class="card">
                         <div class="card-body">
-                            <div class="d-flex flex-row-reverse bd-highlight">
+                           
+                            <h3 class="single__article__title">
+                                Rohit Sharma wary of coming back from 'longest gap in my career without holding a bat'
+                            </h3>
+
+                             <div class="d-flex flex-row-reverse bd-highlight">
                                 <div class="p-2 bd-highlight">
                                     <p>Posted on : Monday 05 2020</p>
                                 </div>
                             </div>
-                            <h3 class="single__article__title">
-                                Rohit Sharma wary of coming back from 'longest gap in my career without holding a bat'
-                            </h3>
 
 
                             <img src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1228557_1296x729.jpg&amp;w=920&amp;h=518&amp;scale=crop&amp;cquality=80&amp;location=origin&amp;format=jpg" width="600" />

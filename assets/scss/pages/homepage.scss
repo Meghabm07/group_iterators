@@ -28,6 +28,10 @@
     }
 }
 
+.list-group {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .16);
+}
+
 .heading__list {
     list-style: none;
     padding-left: 0px;
@@ -154,6 +158,9 @@ h1 {
 }
 
 @media (max-width:1500px) and (min-width:767px) {
+    .heading__item {
+        font-size: 80%;
+    }
     .item {
         h6 {
             font-size: 75%;
@@ -177,11 +184,11 @@ h1 {
     }
     .most__view__article {
         h6 {
-            font-size: 78%;
+            font-size: 100%;
             margin-bottom: 0px;
         }
         p {
-            font-size: 75% !important;
+            font-size: 85% !important;
         }
     }
 }

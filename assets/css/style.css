@@ -310,6 +310,11 @@ footer a:hover {
   text-decoration: none;
 }
 
+.list-group {
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.16);
+}
+
 .heading__list {
   list-style: none;
   padding-left: 0px;
@@ -475,6 +480,9 @@ h1 {
 }
 
 @media (max-width: 1500px) and (min-width: 767px) {
+  .heading__item {
+    font-size: 80%;
+  }
   .item h6 {
     font-size: 75%;
   }
@@ -495,11 +503,11 @@ h1 {
     font-size: 100%;
   }
   .most__view__article h6 {
-    font-size: 78%;
+    font-size: 100%;
     margin-bottom: 0px;
   }
   .most__view__article p {
-    font-size: 75% !important;
+    font-size: 85% !important;
   }
 }
 
@@ -781,6 +789,9 @@ a:hover {
 }
 
 @media (max-width: 1500px) and (min-width: 767px) {
+  body h3 {
+    font-size: 1.3rem;
+  }
   .card-body {
     -ms-flex: 1 1 auto;
     -webkit-box-flex: 1;

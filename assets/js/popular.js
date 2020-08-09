@@ -1,9 +1,6 @@
 function popular() {
     var popular = `
                 <div class="row">
-                    <div class="col-12">
-                        <h4 class="text__black__color mt-4">Popular Articles</h4>
-                    </div>
                     <div class="col-12 lazy slider">
                 `;
 
@@ -13,9 +10,11 @@ function popular() {
                             <a href = "./article.html"
                             class="" >
                                 <div class="card">
-                                    <img class="card-img-top" src="./assets/images/stadium.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text">The dates and venue for IPL 2020 are out - in the UAE from September 19-November 8 (or 10)...</p>
+                                    <div class="card-body text-center">
+                                        <iframe src="https://www.youtube.com/embed/JdEkYvPmNWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <p class="card-text">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                        ...</p>
                                     </div>
                                 </div>
                             </a>

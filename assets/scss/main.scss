@@ -101,6 +101,11 @@ a {
 }
 
 @media (max-width: 1500px) and (min-width:767px) {
+    body {
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
     .card-body {
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
